@@ -12,3 +12,25 @@ Reconhecer entrada de áudio e converter para um valor String.
 Entregar uma resposta em forma de audio.
 Se a pergunta for uma operação matemática ele irá resolver.
 A imagem principal irá mudar dependendo do que ouvir, alterando sua expressão facial.
+
+![](img/img1.png)
+
+![](img/img2.png)
+
+![](img/img3.png)
+
+![](img/img4.png)
+
+![](img/img5.png)
+
+![](img/img6.png)
+
+![](img/img7.png)
+
+![](img/img8.png)
+
+![](img/img9.png)
+
+![](img/img10.png)
+
+![](img/img11.png)
