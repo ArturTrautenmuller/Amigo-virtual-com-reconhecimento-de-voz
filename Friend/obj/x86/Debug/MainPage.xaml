@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Friend.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Friend"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:ConnectionId='2' x:Name="button" Content="Quem é você?" HorizontalAlignment="Left" Margin="377,285,0,0" VerticalAlignment="Top"                      Background="#BF83FFDD"/>
+        <Button x:ConnectionId='3' x:Name="button1"  HorizontalAlignment="Left" Margin="409,338,0,0" VerticalAlignment="Top"                       Width="50" Height="48" Background="#BF83FFDD">
+            <Image Source="Assets/ouvido.png" ></Image>
+        </Button>
+        <TextBlock x:ConnectionId='4' x:Name="text" HorizontalAlignment="Left" Margin="130,424,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="600" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock.RenderTransform>
+                <CompositeTransform ScaleX="1" Rotation="-0.245"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Image x:ConnectionId='5' x:Name="image" HorizontalAlignment="Left" Height="182" Margin="321,85,0,0" VerticalAlignment="Top" Width="228" Source="Assets/cc.jpg" RenderTransformOrigin="0.5,0.615"/>
+
+
+    </Grid>
+</Page>
+
